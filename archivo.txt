@@ -1,1 +1,4 @@
 1er commit: Trabaje en mis estilos css de toda la pagina
+
+
+2do commit: Trabaje todo el responsive, la rompi toda
