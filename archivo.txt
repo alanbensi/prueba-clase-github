@@ -2,3 +2,6 @@
 
 
 2do commit: Trabaje todo el responsive, la rompi toda
+
+
+3er commit: Agregue bootstrap
