@@ -1,0 +1,13 @@
+$flexbox: (
+    alinearHorizontal: space-evenly,
+    alinearVertical: center
+);
+
+
+@mixin flexbox ($horizontal, $vertical, $direccion) {
+    display: flex;
+    justify-content: $horizontal;
+    align-items: $vertical;
+    flex-wrap: wrap;
+    flex-direction: $direccion;
+}

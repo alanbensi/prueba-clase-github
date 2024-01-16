@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "beyonders";
+  src: url(../multimedia/fonts/Beyonders.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+  font-weight: 400;
+}
+
+.contenedorMenu {
+  background-color: coral;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.contenedorMenu div {
+  font-family: "Times New Roman", Times, serif;
+}
+.contenedorMenu div .logo {
+  width: 10rem;
+}
+.contenedorMenu nav {
+  font-family: "Times New Roman", Times, serif;
+}
+.contenedorMenu nav .listaMenu {
+  gap: 20px;
+  display: flex;
+  justify-content: column;
+  align-items: end;
+  flex-wrap: wrap;
+  flex-direction: center;
+}
+.contenedorMenu nav .listaMenu li {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.contenedorMenu nav .listaMenu li a {
+  color: violet;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+  .listaMenu {
+    flex-direction: column;
+  }
+  .compuFlex {
+    flex-direction: column;
+  }
+}
+main .sectionBotones .botonVerde, main .sectionBotones .botonRojo, main .sectionBotones .botonAmarillo {
+  width: 150px;
+  height: 150px;
+  padding: 3rem;
+  margin: 3rem;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: green;
+}
+main .sectionBotones .botonAmarillo {
+  background-color: yellow;
+}
+main .sectionBotones .botonRojo {
+  background-color: red;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 800px;
+}
+
+.navegacion__li {
+  background-color: red;
+  width: 200px;
+  height: 800px;
+}
+
+.navegacion__li--verde {
+  background-color: green;
+  width: 200px;
+  height: 800px;
+}
+
+.sectionBingo {
+  background-color: bisque;
+  width: 200px;
+  height: 800px;
+}
+
+.sectionBingo__titulo {
+  text-align: center;
+  font-family: beyonders;
+  width: 200px;
+  height: 800px;
+}
+
+.sectionBingo__divBingo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  width: 200px;
+  height: 800px;
+}
+
+.mainSobreNosotros {
+  padding-top: 7rem;
+  width: 200px;
+  height: 800px;
+}
+
+.compuFlex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

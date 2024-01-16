@@ -1,9 +1,0 @@
-1er commit: Trabaje en mis estilos css de toda la pagina
-
-
-2do commit: Trabaje todo el responsive, la rompi toda
-
-
-3er commit: Agregue bootstrap
-
-4to commit: Agregue sass, exploto mi proyecto. 

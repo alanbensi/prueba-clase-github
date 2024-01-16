@@ -1,0 +1,47 @@
+.contenedorMenu {
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    font-family: $tipografiaPrincipal;
+
+    div {
+        font-family: $tipografiaPrincipal;
+
+        .logo {
+            width: 10rem;
+        }
+    }
+
+    nav {
+        font-family: $tipografiaPrincipal;
+
+        .listaMenu {
+            gap: 20px;
+            @include flexbox (column, end,center);
+
+            li {
+                list-style: none;
+                @include flexbox (start, end, row-reverse);
+                a {
+                    color: violet;
+                    font-family: $tipografiaPrincipal;
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width:700px) {
+    .listaMenu {
+        flex-direction: column;
+    }
+
+    .compuFlex {
+        flex-direction: column;
+    }
+}

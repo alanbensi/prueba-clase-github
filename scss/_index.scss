@@ -1,0 +1,21 @@
+main {
+    .sectionBotones {
+        .botonVerde {
+            width: 150px;
+            height: 150px;
+            padding: 3rem;
+            margin: 3rem;
+            border: 2px solid;
+            border-radius: 10px;
+            background-color: green;
+        }
+        .botonAmarillo {
+            @extend .botonVerde;
+            background-color: yellow;
+        }
+        .botonRojo {
+            @extend .botonVerde;
+            background-color: red;
+        }
+    }
+}

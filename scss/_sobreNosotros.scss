@@ -1,0 +1,53 @@
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+    width: map-get($tamanos, ancho);
+    height: map-get($tamanos, alto );
+}
+
+.navegacion__li{
+    background-color: red;
+    width: map-get($tamanos, ancho);
+    height: map-get($tamanos, alto );
+}
+
+.navegacion__li--verde {
+    background-color: green;
+    width: map-get($tamanos, ancho);
+    height: map-get($tamanos, alto );
+}
+
+.sectionBingo {
+    background-color: bisque;
+    width: map-get($tamanos, ancho);
+    height: map-get($tamanos, alto );
+}
+
+.sectionBingo__titulo {
+    text-align: center;
+    font-family: beyonders;
+    width: map-get($tamanos, ancho);
+    height: map-get($tamanos, alto );
+
+}
+
+.sectionBingo__divBingo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    width: map-get($tamanos, ancho);
+    height: map-get($tamanos, alto );
+}
+
+.mainSobreNosotros {
+    padding-top: 7rem;
+    width: map-get($tamanos, ancho);
+    height: map-get($tamanos, alto );
+}
+
+.compuFlex{
+    display: flex;
+    justify-content: map-get($flexbox,alinearHorizontal);
+    align-items: map-get($flexbox, alinearVertical);
+}

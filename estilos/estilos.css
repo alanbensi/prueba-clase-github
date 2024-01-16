@@ -148,43 +148,7 @@ li {
 
 /* SOBRE NOSOTROS */
 
-.navegacion {
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.navegacion__li{
-    background-color: red;
-}
-
-.navegacion__li--verde {
-    background-color: green;
-}
-
-.sectionBingo {
-    background-color: bisque;
-}
-
-.sectionBingo__titulo {
-    text-align: center;
-    font-family: beyonders;
-
-}
-
-.sectionBingo__divBingo {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 2rem 0;
-}
-
-.mainSobreNosotros {
-    padding-top: 7rem;
-}
-
-.compuFlex{
-    display: flex;
-}
 
 /* EJEMPLO AFTER */
 
